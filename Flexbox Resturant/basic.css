@@ -1,0 +1,51 @@
+body {
+	background-color: tomato;	
+
+}
+
+#main-header {
+	color: white;
+	border: 3px black solid;
+	background-color: black;
+	text-align: center;
+	font-family: areial;
+	font-size: 1.2em;
+}
+	
+
+.container-1, .container-2 {
+	display: flex;
+	justify-content: space-between;
+}
+.container-1 div, .container-2 div {
+	border: 1px #ccc solid;
+	padding: 10px;
+}
+
+.container-1 div img, .container-2 div img {
+	height: 100%;
+	width: 100%;
+}
+
+.burger {
+	flex: 1;
+	order: 1;
+}
+.pizza {
+	flex: 1;
+	order: 2;
+}
+.shawarma{
+	flex: 1;
+	order: 4;
+}
+.samosa {
+	flex: 1;
+	order: 3;
+}
+#main-footer {
+	color: white;
+	border: 3px black solid;
+	background-color: black;
+	text-align: center;
+}
